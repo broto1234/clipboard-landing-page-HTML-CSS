@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  background-color: white;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+h1, h2, h4, h6 {
+  color: hsl(210, 50%, 23%);
+  font-weight: 600;
+}
+
+.backPic {
+  background: url("bg-header-mobile.png") no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+header img {
+  transform: scale(0.85);
+  padding: 9rem 0  5rem 0;
+}
+
+.specialHedding {
+  width: 75%;
+  margin: 0 auto;
+  padding: 0.5rem 0.3rem;
+  margin-top: -2.5rem;
+}
+
+.mainParag {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  width: 71%;
+  margin: 2rem auto;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  width: 71%;
+  margin: 1rem auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  width: 70%;
+  margin: 1.5rem auto;
+  border-radius: 1.75rem;
+  border: none;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.btn h2 {
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+  margin-top: 4rem;
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+  margin-bottom: 3rem;
+}
+
+.keepTrack {
+  margin: 0;
+}
+
+.keepTrack h2 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.allImg {
+  transform: scale(0.8);
+  width: 100%;
+  height: auto;
+}
+
+.accessAnywhere {
+  margin-top: 5rem;
+}
+
+.chargeboxs {
+  margin: 5rem 0;
+}
+
+.chargeBox {
+  margin: 2rem 0;
+}
+
+.chargeBox>img {
+  margin-bottom: 1.3rem;
+}
+
+.microsoftIbm {
+  margin: 5rem 0;
+}
+
+.microLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+}
+
+.microLogo>img {
+  padding-bottom: 4rem;
+}
+
+.microClipboard {
+  padding: 0 0.9rem;
+}
+
+.socialWrapper {
+  background-color: rgba(159, 171, 178, 0.3);
+}
+
+.socialWrapper img {
+  transform: scale(0.5);
+}
+
+.contactAll {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.contInfo {
+  margin: 2rem 0;
+}
+
+.contInfo h4:hover {
+  color: hsl(171, 80%, 50%);
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.socialImg {
+  width: 40px;
+  height: 40px;
+}
+
+.socialImg:hover {
+  cursor: pointer;
+}
+
+footer {
+  width: 80%;
+  color: white;
+  background-color: #7541c8;
+  border-radius: 5px;
+  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+  margin: 1rem auto;
+}
+
+footer p {
+  font-family: 'Bai Jamjuree', sans-serif;
+  max-width: 230px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width:1060px){
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .backPic {
+    background: url("bg-header-desktop.png") no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+  
+  .specialHedding {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0.5rem 0.3rem;
+    margin-left: 7.3rem;
+  }
+
+  .mainParag {
+    width: 53%;
+    margin: 0.5rem auto 3rem auto;
+  }
+
+  .btn {
+    display: inline;
+    max-width: 150px;
+    padding: 0.5rem 0;
+    margin: 0 1rem 3rem auto;
+    font-size: 0.6rem;
+  }
+
+  .allImg {
+    transform: scale(1);
+  }
+
+  .trackCont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+
+  .partThree {
+    margin-top: 3rem;
+    text-align: start;
+    width:80%;
+  }
+
+  .accessAnywhere {
+    height: 650px;
+  }
+
+  .accessAnywhere .allImg {
+    transform: scale(0.7);
+    margin-top: -5.5rem;
+  }
+
+  .superCharge {
+    margin: 3rem 0;
+  }
+
+  .superCharge>p {
+    font-size: 0.9rem;
+    width: 35%;
+    margin: 1rem auto;
+  }
+
+  .chargeboxs {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 3rem 0;
+  }
+  
+  .chargeBox {
+    margin: 0;
+  }
+
+  .chargeBox>p {
+    width: 86%;
+  }
+
+  .microLogo {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-bottom: 0;
+  }
+
+  .socialWrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 0 5rem;
+    justify-content: space-between;
+  }
+
+  .socialWrapper> img {
+    justify-self: center;
+    align-self: center;
+
+  }
+
+  .contactAll {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0;
+    text-align: start;
+  }
+
+  .socials {
+    align-self: center;
+  }
+
+}
